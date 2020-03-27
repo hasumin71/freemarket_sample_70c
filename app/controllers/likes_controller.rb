@@ -12,7 +12,7 @@ class LikesController < ApplicationController
     #お気に入りの数をすぐに反映させる。
   end 
 
-  def destroy
+  def like_destroy
     @product = Product.find(params[:product_id],)
     Like.destroy(user_id: current_user.id, product_id: @product.id)
     @likes = Like.where(product_id: @product.id)

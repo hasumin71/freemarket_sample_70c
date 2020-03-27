@@ -116,16 +116,16 @@
           .block
             - @products.each do |product|
               .left
-                = link_to "",root_path
-                .image
-                  - product.images.each_with_index do |image, i|
-                    - if i == 0
-                      = image_tag image.image.url, size:"220x150"
-                        - if product.status == 1
-                        .sold-group
-                          %p.sold
-                            sold
-                          %p.sold-label
+                = link_to product_path(product) do
+                  .image
+                    - product.images.each_with_index do |image, i|
+                      - if i == 0
+                        = image_tag image.image.url, size:"220x150"
+                          - if product.status == 1
+                          .sold-group
+                            %p.sold
+                              sold
+                            %p.sold-label
                           
                 .pop
                   .name 
@@ -151,16 +151,16 @@
           .block
             - @pickupbrand.each do |product|
               .left
-                = link_to product_path(product)
-                .image
-                  - product.images.each_with_index do |image, i|
-                    - if i == 0
-                      = image_tag image.image.url, size:"220x150"
-                      - if product.status == 1
-                        .sold-group
-                          %p.sold
-                            sold
-                          %p.sold-label
+                = link_to product_path(product.id) do
+                  .image
+                    - product.images.each_with_index do |image, i|
+                      - if i == 0
+                        = image_tag image.image.url, size:"220x150"
+                        - if product.status == 1
+                          .sold-group
+                            %p.sold
+                              sold
+                            %p.sold-label
 
                 .pop
                   .name 
