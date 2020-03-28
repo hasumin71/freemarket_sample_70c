@@ -36,7 +36,8 @@
 * Github
 
 
-* ER図![freemarket_sample_70c_ER図](https://user-images.githubusercontent.com/59963342/77608611-17cc5780-6f61-11ea-9516-1676fec38e3c.png)
+# ER図
+![freemarket_sample_70c_ER図](https://user-images.githubusercontent.com/59963342/77608611-17cc5780-6f61-11ea-9516-1676fec38e3c.png)
 
 ## usersテーブル
 |Column|Type|Options|
