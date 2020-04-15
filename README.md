@@ -5,7 +5,7 @@
 
 # 説明文
 * 担当箇所の具体的な説明と今後の課題についての詳細です。
-https://docs.google.com/document/d/1tiNRk7sr7-idJy1k778C7nnNY_8x-ZMQKieo9D88iKQ/edit?usp=sharing
+* https://docs.google.com/document/d/1tiNRk7sr7-idJy1k778C7nnNY_8x-ZMQKieo9D88iKQ/edit?usp=sharing
 
 # リンク
 * http://18.180.9.254 
