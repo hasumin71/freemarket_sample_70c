@@ -4,7 +4,7 @@
 * メンバー5名でのアジャイル型開発（スクラム）
 
 # 説明文
-* 担当箇所の具体的な説明と今後の課題についての詳細です。
+* 担当箇所の具体的な説明と今後の課題についての詳細です。以下がリンク先のURLです。お時間がある際、お目通し頂けると幸いです。
 * https://docs.google.com/document/d/1tiNRk7sr7-idJy1k778C7nnNY_8x-ZMQKieo9D88iKQ/edit?usp=sharing
 
 # リンク
